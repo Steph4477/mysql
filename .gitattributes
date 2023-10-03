@@ -1,2 +1,0 @@
-mubi_db.sqlite filter=lfs diff=lfs merge=lfs -text
-mubi_db.sqlite -text
