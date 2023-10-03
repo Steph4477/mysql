@@ -1,0 +1,51 @@
+# Ignorer les fichiers compilés et les fichiers générés
+*.o
+*.out
+*.pyc
+
+# Ignorer les fichiers spécifiques
+mubi_db.sqlite
+
+# Ignorer les fichiers/dossiers générés par l'environnement de développement (par exemple, pour Python)
+__pycache__/
+*.pyc
+
+# Ignorer les fichiers/dossiers spécifiques générés par un éditeur (par exemple, pour Visual Studio Code)
+.vscode/
+
+# Ignorer les fichiers/dossiers spécifiques générés par l'IDE JetBrains IntelliJ IDEA
+.idea/
+
+# Ignorer les fichiers/dossiers spécifiques générés par l'éditeur de texte Sublime Text
+.sublime*/
+
+# Ignorer les fichiers/dossiers spécifiques générés par l'éditeur de texte Visual Studio
+.vs2019/
+*.suo
+*.ntvs*
+*.nib
+*.aps
+*.ide
+
+# Ignorer les fichiers de configuration spécifiques pour macOS
+.DS_Store
+
+# Ignorer les fichiers de configuration spécifiques pour Windows
+Thumbs.db
+Desktop.ini
+
+# Ignorer les fichiers de sauvegarde
+*~
+
+# Ignorer les fichiers de journalisation
+*.log
+
+# Ignorer les fichiers d'environnement
+.env
+
+# Ignorer le dossier de dépendances (par exemple, pour Node.js)
+node_modules/
+
+# Ignorer les fichiers de build (par exemple, pour Java)
+target/
+*.class
